@@ -22,3 +22,10 @@ Run frontend:
 cd backend
 python main.py
 ```
+
+## Play with it
+
+Steps:
+- Register a new user: http://localhost:3000/register
+- Login with the newly created user: http://localhost:3000/login
+- check the footer contains the access token
