@@ -78,7 +78,6 @@ import { useCounterStore } from '../stores/counter';
 import { useCounterPersistStore } from '../stores/counterPersist';
 
 export default {
-  name: 'Protected Page',
   data() {
     return {
       store: useCounterStore(),

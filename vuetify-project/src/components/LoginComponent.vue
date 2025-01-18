@@ -26,7 +26,6 @@ import axios from 'axios';
 import { useStore } from '../stores/store';
 
 export default {
-  name: 'LoginForm',
   data() {
     return {
       store: useStore(),
@@ -59,6 +58,7 @@ export default {
           console.log('Form submitted:', response.data);
           this.access_token = response.data['access_token']
           this.store.access_token = response.data['access_token']
+          this.store.isAuthenticated = true
           // TODO: Store this access token somewhere so you can provide it again
           // Handle successful response here (e.g., redirect to another page)
         } catch (error) {

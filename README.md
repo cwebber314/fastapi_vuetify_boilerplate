@@ -29,3 +29,6 @@ Steps:
 - Register a new user: http://localhost:3000/register
 - Login with the newly created user: http://localhost:3000/login
 - check the footer contains the access token
+- Check the protected page - you should see a message if you are logged in: http://localhost:3000/protected-page
+- Check the protected page with redirect - if you aren't logged in you get redirected to the login page http://localhost:3000/protected-redirect
+  - Ideally after login you would get redirected to your orignal page, but I haven't figured this out
