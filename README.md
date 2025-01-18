@@ -32,6 +32,8 @@ Steps:
 - Check the protected page - you should see a message if you are logged in: http://localhost:3000/protected-page
 - Check the protected page with redirect - if you aren't logged in you get redirected to the login page http://localhost:3000/protected-redirect
   - Ideally after login you would get redirected to your orignal page, but I haven't figured this out
+- To play with pinia store:
+  - http://localhost:3000/counter
 
 ## A note about the router
 
