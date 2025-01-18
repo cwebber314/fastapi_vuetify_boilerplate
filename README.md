@@ -33,6 +33,11 @@ Steps:
 - Check the protected page with redirect - if you aren't logged in you get redirected to the login page http://localhost:3000/protected-redirect
   - Ideally after login you would get redirected to your orignal page, but I haven't figured this out
 
+## A note about the router
+
+The vuetify3 boilerplate generates auto routes for anything in `/pages` using the `unplugin-vue-router`.
+I haven't figured out how to customize these auto routers for authentication redirects, so I wrote the routes manually.
+
 ## OAuth2
 
 I need to setup an OAuth2 demo, with the FastAPI-users pacakge it should be a simple addition.
