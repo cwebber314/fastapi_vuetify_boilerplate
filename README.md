@@ -1,7 +1,7 @@
 # Boilerplate FastAPI - Vuetify - FastAPI Users 
 
 Setup a simple web app with:
-- Vuetify for frontend
+- Vuetify3 for frontend
 - FastAPI for backend
 - FastAPI-Users for validation 
   - users+passwords are stored in a sqlite database
